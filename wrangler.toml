@@ -1,3 +1,5 @@
+upload_source_maps = true
+
 name = "sink"
 type = "javascript" # or "webpack" if you are using Webpack
 
@@ -12,3 +14,9 @@ kv_namespaces = [
 # Optional: Additional configuration settings
 # compatibility_date = "2024-07-27"
 # usage_model = "bundled" # or "unbound"
+
+[dev]
+port = 3000
+
+[ai]
+binding = "AI"
