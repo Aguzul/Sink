@@ -20,3 +20,15 @@ port = 3000
 
 [ai]
 binding = "AI"
+
+# Add new configuration settings
+zone_id = "ae5f1b3510f89ae726a7e5a4f777d9f1"
+route = "volgamo.com/*"
+
+[env.production]
+account_id = "ded52c6834df99f0ff92fae2e0596239"
+zone_id = "ae5f1b3510f89ae726a7e5a4f777d9f1"
+route = "volgamo.com/*"
+
+[build]
+command = "npm run build"
